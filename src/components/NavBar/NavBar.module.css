@@ -1,0 +1,27 @@
+.navBarContainer{
+    width: 100vw;
+    height: 10vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+.navBarList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+}
+
+.navBarItem{
+    color: gray;
+    margin: 0 2vw 0;
+    font-size: 3vh;
+}
+.navBarItem:hover{
+    color: black;
+    cursor: pointer;
+}

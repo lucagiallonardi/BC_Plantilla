@@ -1,0 +1,65 @@
+.imgCardContainer{
+    width: 25vw;
+    height: 30vw;
+    background-color: lightcoral;
+    display: flex;
+    margin: 2vh 1vw 2vh 1vw;
+}
+
+.imgCard{
+    width: 100%;
+    height: 100%;
+}
+
+.imgCardHover{
+    position: absolute;
+    width: 25vw;
+    height: 30vw;
+    opacity: 0;
+    background-color: #000;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgCardHover:hover{
+    opacity: .5;
+}
+
+.imgBoton{
+    width: 5vw;
+    height: 5vw;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.imgOpen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.imgClosed{
+    display: none;
+}
+
+.imgOpenBackground{
+    background-color: black;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+
+.imgOpenimg{
+    background-color: lightcoral;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+}
