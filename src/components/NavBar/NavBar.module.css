@@ -1,12 +1,44 @@
 .navBarContainer{
     width: 100vw;
     height: 10vh;
-    background-color: yellow;
     display: flex;
     flex-direction: row;
     align-items: center;
     position: fixed;
     z-index: 99;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 52%, rgba(255,255,255,1) 80%, rgba(0,212,255,0) 100%);
+font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+.navBarContainerNone{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 52%, rgba(255,255,255,1) 80%, rgba(0,212,255,0) 100%);
+font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+.navBarItem>a{
+    text-decoration: none;
+    color: gray;
+}
+
+.logoImg{
+    width: 3vw;
+    margin: 0 0 1.5vh 3.4vw;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.logoImg:hover{
+    cursor: pointer;
+    rotate: 360deg;
 }
 
 .navBarList{
@@ -14,6 +46,7 @@
     flex-direction: row;
     list-style: none;
     margin-left: auto;
+    padding-right: 3vw;
 }
 
 .navBarItem{
@@ -24,4 +57,34 @@
 .navBarItem:hover{
     color: black;
     cursor: pointer;
+}
+
+.arrowUp{
+    width: 9.8vh;
+    height: 9.8vh;
+    background-color: #000;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    top: 85%;
+    right: 5%;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowUpNone{
+    display: none;
+}
+
+.arrowUpIcon:hover{
+    cursor: pointer;
+    rotate: 360deg;
+}
+
+.arrowUpIcon{
+    width: 7vh;
+    height: 7vh;
+    color: #fff;
+    transition: all 1s;
 }
