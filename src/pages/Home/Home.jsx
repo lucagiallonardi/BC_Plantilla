@@ -33,43 +33,44 @@ const Home = ()=>{
 
 
             {/* SERVICIOS */}
-            <div id='servicios' className={styles.homeServices}>
-                <h2>Servicios</h2>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, provident.</h3>
+                <div id='servicios' className={styles.homeServices}>
+                <div className={styles.titleDivServices}>
+                    <div className={styles.titleLine}></div><h2>Nuestros servicios</h2><div className={styles.titleLine}></div></div>
+                <h3>Soluciones energéticas a tu alcance: Te ayudamos a transformar tu negocio con nuestros servicios especializados</h3>
                 <div className={styles.gridServices}>
-                    <Link to={'/servicios'}>
                         <div className={styles.serviceItem}>
-                        <IconTool className={styles.serviceIcon}/>
+                        <div className={styles.circleIconService}></div>
+                        <IconBulb className={styles.serviceIcon}/>
                         <div className={styles.serviceDesc}>
-                            <h3>Descripcion</h3>
-                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, maxime?</h4>
-                        </div>
-                    </div></Link>
-                    <Link to={'/servicios'}>
-                    <div className={styles.serviceItem}>
-                        <IconLeaf className={styles.serviceIcon}/>
-                        <div className={styles.serviceDesc}>
-                            <h3>Descripcion</h3>
-                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, maxime?</h4>
-                        </div>
-                    </div></Link>
-                    <Link to={'/servicios'}>
-                    <div className={styles.serviceItem}>
-                        <IconSunElectricity className={styles.serviceIcon}/>
-                        <div className={styles.serviceDesc}>
-                            <h3>Descripcion</h3>
-                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, maxime?</h4>
+                            <h3>Consultoría Especializada en Automatización y Control</h3>
+                            <h4>Nuestro equipo de expertos ofrece servicios de consultoría especializados en automatización y control en el mercado eléctrico. Trabajamos para proporcionar soluciones efectivas y personalizadas que optimicen la eficiencia y la seguridad en el sector energético.</h4>
                         </div>
                     </div>
-                    </Link>
-                    <Link to={'/servicios'}>
-                        <div className={styles.serviceItem}>
-                        <IconChartBar className={styles.serviceIcon}/>
+                    <div className={styles.serviceItem}>
+                    <div className={styles.circleIconService}></div>
+                        <IconLeaf className={styles.serviceIcon}/>
+                        
                         <div className={styles.serviceDesc}>
-                            <h3>Descripcion</h3>
-                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, maxime?</h4>
+                            <h3>Desarrollo de Estrategias de Conciencia Situacional</h3>
+                            <h4>Nos destacamos en el desarrollo de estrategias de conciencia situacional en empresas. Ayudamos a nuestros clientes a identificar y abordar los desafíos actuales y futuros, permitiéndoles tomar decisiones informadas y mantenerse a la vanguardia en un entorno competitivo.</h4>
                         </div>
-                    </div></Link>
+                    </div>
+                    <div className={styles.serviceItem}>
+                    <div className={styles.circleIconService}></div>
+                    <IconChartBar className={styles.serviceIcon}/>
+                        <div className={styles.serviceDesc}>
+                            <h3>Transformación Empresarial y Organizacional</h3>
+                            <h4>Trabajamos codo a codo con nuestros clientes para implementar cambios significativos que impulsen el crecimiento y la innovación en sus operaciones.</h4>
+                        </div>
+                    </div>
+                        <div className={styles.serviceItem}>
+                        <div className={styles.circleIconService}></div>
+                        <IconSunElectricity className={styles.serviceIcon}/>
+                        <div className={styles.serviceDesc}>
+                            <h3>Optimización de Eficiencia Energética</h3>
+                            <h4>Nuestros expertos ayudan a identificar oportunidades de mejora en el uso y la gestión de la energía, contribuyendo así a reducir costos y minimizar el impacto ambiental.</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
 
