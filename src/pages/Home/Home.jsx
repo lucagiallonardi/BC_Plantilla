@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import styles from './Home.module.css';
-import { IconTool, IconLeaf, IconSunElectricity,IconChartBar } from '@tabler/icons-react';
+import { IconBulb, IconLeaf, IconSunElectricity,IconChartBar } from '@tabler/icons-react';
 import ClientCard from "../../components/ClientCard/ClientCard";
 import GalleryCard from "../../components/GalleryCard/GalleryCard";
 import imgCover from '../../img/BCH_PORTADA_FB_AF.jpg';
