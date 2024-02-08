@@ -4,7 +4,7 @@
 
 .homeCover{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-color: lightblue;
 }
 
@@ -70,7 +70,7 @@
 
 .aboutDivDesc>p{
     font-size: 2.8vh;
-    margin-bottom: 3vh;
+    margin: 3vh 0 3vh 0;
 }
 
 .buttonAbout{
