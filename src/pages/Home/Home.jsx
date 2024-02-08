@@ -75,7 +75,7 @@ const Home = ()=>{
             </div>
 
 
-            {/* GALERIA */}
+{/*             {/* GALERIA */}
             <div id='galeria' className={styles.homeGallery}>
                 <h2>Galeria</h2>
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, voluptatum.</h3>
@@ -136,7 +136,7 @@ const Home = ()=>{
 
             <div id="socios" className={styles.homeSocios}>Socios</div>
             <div id="contacto" className={styles.homeContact}>Contacto</div>
-            </div>
+            </div> */}
         </div>
     );
 }
