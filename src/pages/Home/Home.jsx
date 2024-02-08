@@ -75,68 +75,7 @@ const Home = ()=>{
             </div>
 
 
-{/*             {/* GALERIA */}
-            <div id='galeria' className={styles.homeGallery}>
-                <h2>Galeria</h2>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, voluptatum.</h3>
-                <div id="carouselExample" className="carousel slide">
-                <div className="carousel-inner">
-                 <div className="carousel-item active">
-                    <div className={styles.carouselItem}>
-                    <GalleryCard/>
-                    <GalleryCard/>
-                    <GalleryCard/>
-                    </div>
-                    <div className={styles.carouselItem}>
-                    <GalleryCard/>
-                    <GalleryCard/>
-                    <GalleryCard/>
-                    </div>
-                 </div>
-                 <div className="carousel-item">
-                 <div className={styles.carouselItem}>
-                    <GalleryCard/>
-                    <GalleryCard/>
-                    <GalleryCard/>
-                </div>
-                <div className={styles.carouselItem}>
-                    <GalleryCard/>
-                    <GalleryCard/>
-                    <GalleryCard/>
-                    </div>
-                 </div>
-                 </div>
-                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span className="visually-hidden">Previous</span>
-                 </button>
-                 <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                 <span className="visually-hidden">Next</span>
-                </button>
-                </div>
-            </div>
 
-
-
-            {/* CLIENTES */}
-            <div id='clientes' className={styles.homeClients}>
-                <h2>Clientes</h2>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, praesentium.</h3>
-            <div className={styles.clientsGrid}>
-            <ClientCard/>
-            <ClientCard/>
-            <ClientCard/>
-            <ClientCard/>
-            <ClientCard/>
-            <ClientCard/>
-            </div>
-            </div>
-
-
-            <div id="socios" className={styles.homeSocios}>Socios</div>
-            <div id="contacto" className={styles.homeContact}>Contacto</div>
-            </div> */}
         </div>
     );
 }
