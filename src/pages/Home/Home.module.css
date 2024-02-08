@@ -113,7 +113,7 @@
     align-items: center;
     flex-direction: column;
     color: rgb(100, 99, 99);
-    padding-top: 10vh;
+    padding-top: 5vh;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 
@@ -137,7 +137,7 @@
 
 .homeServices>h3{
     font-size: 4vh;
-    margin: 0 0 10vh 0;
+    margin: 0 0 6vh 0;
     width: 70%;
     text-align: center;
 }
