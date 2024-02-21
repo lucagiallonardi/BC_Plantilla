@@ -16,7 +16,7 @@
     width: 25vw;
     height: 30vw;
     opacity: 0;
-    background-color: #000;
+    background-color: #fff;
     transition: .5s;
     display: flex;
     align-items: center;
@@ -30,9 +30,23 @@
 .imgBoton{
     width: 5vw;
     height: 5vw;
-    background-color: #fff;
+    background-color: #f19101;
     cursor: pointer;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.imgBoton:hover{
+    rotate: 360deg;
+}
+
+.eyeBoton{
+ height: 3vw;
+ width: 3vw;
+ color: #fff;
 }
 
 .imgOpen{
@@ -58,8 +72,7 @@
 }
 
 .imgOpenimg{
-    background-color: lightcoral;
-    width: 30vw;
-    height: 30vw;
+    width: 60vw;
     position: absolute;
 }
+

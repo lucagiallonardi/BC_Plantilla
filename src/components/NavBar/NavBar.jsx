@@ -40,7 +40,7 @@ const NavBar = () => {
        <div className={scrollUp ? styles.navBarContainer : styles.navBarContainerNone}>
         <div><a href='/'><img className={styles.logoImg} src={logo} alt='logo'/></a></div>
         <ul className={styles.navBarList}>
-            <li className={styles.navBarItem}>¿Quienes Somos?</li>
+            <li className={styles.navBarItem}><a href='#quienes-somos'>¿Quienes Somos?</a></li>
             <li className={styles.navBarItem}><a href='#servicios'>Servicios</a></li>
             <li className={styles.navBarItem}><a href='#galeria'>Galeria</a></li>
             <li className={styles.navBarItem}><a href='#clientes'>Nuestros Clientes</a></li>
@@ -49,7 +49,7 @@ const NavBar = () => {
         </ul>
        </div>
 
-    <div className={scroll == 0 ? styles.arrowUpNone : styles.arrowUp}>
+    <div className={scroll === 0 ? styles.arrowUpNone : styles.arrowUp}>
        <IconArrowUp className={styles.arrowUpIcon} onClick={scrollToTop}/>
     </div>
     </div>
